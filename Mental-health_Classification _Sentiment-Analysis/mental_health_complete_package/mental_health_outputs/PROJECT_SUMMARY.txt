@@ -1,0 +1,58 @@
+
+================================================================================
+MENTAL HEALTH STATE CLASSIFICATION - PROJECT SUMMARY
+================================================================================
+
+1. PROJECT OVERVIEW
+--------------------------------------------------------------------------------
+Dataset Size: 52681 records
+Classes: 7 - Anxiety, Bipolar, Depression, Normal, Personality disorder, Stress, Suicidal
+Train/Val/Test Split: 35822/8956/7903
+Features: 5017 (TF-IDF + Engineered)
+
+2. MODELS TRAINED
+--------------------------------------------------------------------------------
+Classical ML:
+  - Logistic Regression
+  - Random Forest
+  - Gradient Boosting
+  - XGBoost
+  - Voting Ensemble
+
+Deep Learning:
+  - BERT (Fine-tuned)
+
+3. FINAL RESULTS (TEST SET)
+--------------------------------------------------------------------------------
+                     Accuracy  Precision    Recall  F1-Score
+Voting Ensemble      0.785651   0.785129  0.785651  0.780758
+XGBoost              0.782614   0.780420  0.782614  0.779225
+Logistic Regression  0.767557   0.765258  0.767557  0.764763
+Random Forest        0.650006   0.717695  0.650006  0.617537
+BERT                 0.311401   0.190062  0.311401  0.197700
+
+4. BEST MODEL
+--------------------------------------------------------------------------------
+Model: Voting Ensemble
+F1-Score: 0.7808
+Accuracy: 0.7857
+
+5. KEY FEATURES (Top 10 by Importance)
+--------------------------------------------------------------------------------
+1. word_count
+2. bipolar
+3. avpd
+4. depression
+5. restless
+
+6. DELIVERABLES
+--------------------------------------------------------------------------------
+✓ 5 Trained Classical ML Models
+✓ 1 Fine-tuned BERT Model
+✓ Label Encoder, Vectorizer, Scaler
+✓ 7+ Visualization Plots
+✓ Comprehensive Analysis Reports
+✓ Model Comparison Metrics
+
+Generated: 2026-06-05 05:50:48
+================================================================================

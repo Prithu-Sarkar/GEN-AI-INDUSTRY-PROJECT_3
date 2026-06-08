@@ -1,0 +1,12 @@
+Model: Gaussian NB
+AUC-ROC: 0.8703  |  F1: 0.5160
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.94      0.57      0.71       682
+         Hit       0.37      0.88      0.52       192
+
+    accuracy                           0.64       874
+   macro avg       0.65      0.72      0.61       874
+weighted avg       0.82      0.64      0.67       874
+

@@ -1,0 +1,12 @@
+Model: CatBoost (Tuned)
+AUC-ROC: 0.9920  |  F1: 0.8946
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.97      0.97      0.97       682
+         Hit       0.88      0.91      0.89       192
+
+    accuracy                           0.95       874
+   macro avg       0.93      0.94      0.93       874
+weighted avg       0.95      0.95      0.95       874
+

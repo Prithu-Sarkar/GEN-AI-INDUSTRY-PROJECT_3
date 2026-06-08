@@ -1,0 +1,12 @@
+Model: Random Forest
+AUC-ROC: 0.9922  |  F1: 0.9095
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.98      0.96      0.97       682
+         Hit       0.88      0.94      0.91       192
+
+    accuracy                           0.96       874
+   macro avg       0.93      0.95      0.94       874
+weighted avg       0.96      0.96      0.96       874
+

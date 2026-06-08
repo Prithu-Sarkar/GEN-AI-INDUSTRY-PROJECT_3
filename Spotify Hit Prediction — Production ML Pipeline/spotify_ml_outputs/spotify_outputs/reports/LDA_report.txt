@@ -1,0 +1,12 @@
+Model: LDA
+AUC-ROC: 0.9822  |  F1: 0.8988
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.98      0.95      0.97       682
+         Hit       0.85      0.95      0.90       192
+
+    accuracy                           0.95       874
+   macro avg       0.92      0.95      0.93       874
+weighted avg       0.96      0.95      0.95       874
+

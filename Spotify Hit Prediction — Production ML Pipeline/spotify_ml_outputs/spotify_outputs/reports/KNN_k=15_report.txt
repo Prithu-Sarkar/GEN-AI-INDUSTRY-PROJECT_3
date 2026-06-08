@@ -1,0 +1,12 @@
+Model: KNN (k=15)
+AUC-ROC: 0.9782  |  F1: 0.8852
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.99      0.94      0.96       682
+         Hit       0.82      0.96      0.89       192
+
+    accuracy                           0.95       874
+   macro avg       0.90      0.95      0.92       874
+weighted avg       0.95      0.95      0.95       874
+

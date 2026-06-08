@@ -1,0 +1,12 @@
+Model: Bagging (DT)
+AUC-ROC: 0.9927  |  F1: 0.8985
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.98      0.96      0.97       682
+         Hit       0.88      0.92      0.90       192
+
+    accuracy                           0.95       874
+   macro avg       0.93      0.94      0.93       874
+weighted avg       0.96      0.95      0.95       874
+

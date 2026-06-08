@@ -1,0 +1,12 @@
+Model: Gradient Boosting
+AUC-ROC: 0.9929  |  F1: 0.9082
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.98      0.97      0.97       682
+         Hit       0.89      0.93      0.91       192
+
+    accuracy                           0.96       874
+   macro avg       0.93      0.95      0.94       874
+weighted avg       0.96      0.96      0.96       874
+

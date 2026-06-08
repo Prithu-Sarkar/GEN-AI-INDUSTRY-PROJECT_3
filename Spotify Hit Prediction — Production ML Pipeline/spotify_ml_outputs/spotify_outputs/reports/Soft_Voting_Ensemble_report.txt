@@ -1,0 +1,12 @@
+Model: Soft Voting Ensemble
+AUC-ROC: 0.9925  |  F1: 0.9003
+────────────────────────────────────────────────────────────
+              precision    recall  f1-score   support
+
+     Not Hit       0.98      0.97      0.97       682
+         Hit       0.88      0.92      0.90       192
+
+    accuracy                           0.96       874
+   macro avg       0.93      0.94      0.94       874
+weighted avg       0.96      0.96      0.96       874
+

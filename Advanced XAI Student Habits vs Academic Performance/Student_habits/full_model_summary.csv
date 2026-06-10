@@ -1,0 +1,41 @@
+Model,Task,R²,RMSE,Accuracy,F1
+Linear Regression,Regression,0.9024,5.004,,
+Ridge,Regression,0.9018,5.018,,
+Lasso,Regression,0.8995,5.077,,
+ElasticNet,Regression,0.892,5.261,,
+Huber,Regression,0.9007,5.047,,
+Bayesian Ridge,Regression,0.9014,5.027,,
+KNN Regressor,Regression,0.8021,7.124,,
+Decision Tree,Regression,0.7804,7.503,,
+Random Forest,Regression,0.8768,5.62,,
+Extra Trees,Regression,0.8789,5.573,,
+Gradient Boosting,Regression,0.8738,5.689,,
+AdaBoost,Regression,0.8479,6.246,,
+SVR,Regression,0.8656,5.872,,
+XGBoost,Regression,0.8814,5.516,,
+LightGBM,Regression,0.867,5.839,,
+CatBoost,Regression,0.8932,5.234,,
+XGBoost (Tuned - Optuna),Regression,0.8914,5.277,,
+Stacking Regressor,Regression,0.9013,5.031,,
+Logistic Regression,Classification,,,0.245,0.2039
+Logistic (L1),Classification,,,0.26,0.22
+Logistic (ElasticNet),Classification,,,0.25,0.2076
+LDA,Classification,,,0.235,0.1945
+QDA,Classification,,,0.19,0.1664
+Naive Bayes,Classification,,,0.275,0.2369
+KNN,Classification,,,0.27,0.2427
+Decision Tree,Classification,,,0.24,0.1994
+Random Forest,Classification,,,0.28,0.2078
+Extra Trees,Classification,,,0.275,0.2349
+Gradient Boosting,Classification,,,0.24,0.2231
+AdaBoost,Classification,,,0.285,0.2611
+SVC (RBF),Classification,,,0.285,0.272
+SVC (Linear),Classification,,,0.27,0.1842
+SGD Classifier,Classification,,,0.24,0.2372
+XGBoost,Classification,,,0.25,0.2292
+LightGBM,Classification,,,0.255,0.248
+CatBoost,Classification,,,0.285,0.2404
+LightGBM (Tuned - Optuna),Classification,,,0.24,0.2335
+CatBoost (Tuned - RandomSearch),Classification,,,0.26,0.2139
+Stacking Classifier,Classification,,,0.25,0.171
+Voting Classifier,Classification,,,0.26,0.2417

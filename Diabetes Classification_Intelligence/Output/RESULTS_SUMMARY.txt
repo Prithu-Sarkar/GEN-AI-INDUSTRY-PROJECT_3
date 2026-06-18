@@ -1,0 +1,27 @@
+DIABETES AI - RESULTS SUMMARY
+Generated: 2026-06-17 04:01:37.996972
+
+Best Model: Random Forest
+
+Performance:
+  Accuracy:    0.7838
+  Precision:   0.7000
+  Recall:      0.6562
+  F1-Score:    0.6774
+  ROC-AUC:     0.8496
+
+Clinical:
+  Sensitivity: 0.6562 (65.6%)
+  Specificity: 0.8512
+  PPV:         0.7000
+  NPV:         0.8240
+
+Top 5 Predictors:
+              Feature  Importance
+    Glucose_BMI_Index    0.139241
+          Glucose_Age    0.123957
+glucose_concentration    0.110092
+              BMI_Age    0.084705
+                  bmi    0.079218
+
+Status: PRODUCTION READY

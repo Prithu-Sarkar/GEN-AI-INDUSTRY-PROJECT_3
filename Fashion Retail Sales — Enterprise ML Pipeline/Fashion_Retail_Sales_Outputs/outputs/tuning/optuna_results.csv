@@ -1,0 +1,3 @@
+Model,Best CV AUC,N Trials
+XGBoost (Optuna),0.507571523735906,60
+LightGBM (Optuna),0.5053149136202811,60

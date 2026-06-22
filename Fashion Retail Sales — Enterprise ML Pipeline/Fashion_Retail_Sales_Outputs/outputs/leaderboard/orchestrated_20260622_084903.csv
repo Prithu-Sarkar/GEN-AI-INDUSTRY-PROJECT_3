@@ -1,0 +1,4 @@
+run_id,model_name,cv_auc,test_auc,accuracy,f1,balanced_acc,mcc,train_time_s
+20260622_084903,LGBM (Orchestrated),0.49459,0.5237,0.52647,0.56369,0.52385,0.04806,6.761
+20260622_084903,RF (Orchestrated),0.49979,0.51956,0.51176,0.56085,0.50802,0.01631,8.084
+20260622_084903,XGB (Orchestrated),0.49436,0.5171,0.50147,0.52851,0.49996,-9e-05,4.6

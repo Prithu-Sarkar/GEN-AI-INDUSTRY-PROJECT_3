@@ -1,0 +1,30 @@
+Feature,Mean_SHAP
+Cust_Total,0.29372963
+Days_Since_First,0.24614036
+Cust_AvgSpend,0.2100669
+Purchase Amount (USD),0.20735915
+Review Rating,0.18912227
+Item_AvgAmt,0.18817641
+Day,0.17895783
+Item_AvgRating,0.16876036
+DayOfWeek,0.1406136
+Week,0.13744327
+Item_FreqEnc,0.1368031
+Cust_Freq,0.13593903
+Rating_Tier_Enc,0.08906324
+Month,0.051482823
+Season,0.03661449
+Rating_Zscore,0.031470783
+WeekOfYear,0.021865427
+HighValue_Flag,0.013895175
+Revenue_Pct,0.010776442
+IsWeekend,0.010369497
+Item_TopFlag,0.009124747
+Quarter,0.007285915
+Revenue_Bin_Enc,0.0069168042
+HighRating_Flag,0.0030584438
+Year,0.0
+Amount_Rank,0.0
+Amount_Zscore,0.0
+Rating_Rank,0.0
+Item_Vest,0.0

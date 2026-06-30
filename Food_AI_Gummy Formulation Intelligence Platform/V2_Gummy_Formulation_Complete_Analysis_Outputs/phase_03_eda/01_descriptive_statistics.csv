@@ -1,0 +1,25 @@
+Formulation,Parameter,Mean,SD,Min,Max
+Corn Flour,Energy_kcal,129.32,,129.32,129.32
+Oats Flour,Energy_kcal,181.5,,181.5,181.5
+Rice Flour,Energy_kcal,181.0,,181.0,181.0
+Puffed Rice Powder,Energy_kcal,180.62,,180.62,180.62
+Corn Flour,Protein_pct,0.03,,0.03,0.03
+Oats Flour,Protein_pct,0.96,,0.96,0.96
+Rice Flour,Protein_pct,0.44,,0.44,0.44
+Puffed Rice Powder,Protein_pct,0.52,,0.52,0.52
+Corn Flour,Fiber_g,3.2,,3.2,3.2
+Oats Flour,Fiber_g,9.9,,9.9,9.9
+Rice Flour,Fiber_g,1.16,,1.16,1.16
+Puffed Rice Powder,Fiber_g,0.6,,0.6,0.6
+Corn Flour,Hardness_g,743.22,,743.22,743.22
+Oats Flour,Hardness_g,701.23,,701.23,701.23
+Rice Flour,Hardness_g,680.92,,680.92,680.92
+Puffed Rice Powder,Hardness_g,623.44,,623.44,623.44
+Corn Flour,Overall_Accept,8.49,,8.49,8.49
+Oats Flour,Overall_Accept,8.24,,8.24,8.24
+Rice Flour,Overall_Accept,8.24,,8.24,8.24
+Puffed Rice Powder,Overall_Accept,7.89,,7.89,7.89
+Corn Flour,TPC_mgGAE,67.21,,67.21,67.21
+Oats Flour,TPC_mgGAE,78.76,,78.76,78.76
+Rice Flour,TPC_mgGAE,70.72,,70.72,70.72
+Puffed Rice Powder,TPC_mgGAE,82.25,,82.25,82.25

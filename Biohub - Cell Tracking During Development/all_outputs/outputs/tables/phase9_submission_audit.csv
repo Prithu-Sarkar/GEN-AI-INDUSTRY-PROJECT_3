@@ -1,0 +1,7 @@
+check,result,pass
+missing_columns,none,True
+row_type_values,"{'node': 44020, 'edge': 42034}",True
+node_coords_non_negative,0 violations,True
+edge_ids_non_negative,0 violations,True
+id_monotone,True,True
+datasets_in_submission,4,True

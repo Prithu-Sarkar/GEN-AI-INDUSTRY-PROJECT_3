@@ -1,0 +1,6 @@
+item,value
+torch_version,2.10.0+cu128
+cuda_available,True
+device_name,Tesla T4
+device_count,2
+total_memory_GB,15.64

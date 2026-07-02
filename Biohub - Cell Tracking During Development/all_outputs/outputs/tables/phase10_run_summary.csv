@@ -1,0 +1,10 @@
+item,value
+figures_saved,43
+tables_saved,16
+dl_trained,False
+gpu_used,True
+test_samples_processed,4
+total_submission_rows,86054
+submission_file,/kaggle/working/outputs/submission/submission.csv
+best_calib_recall,n/a
+active_detector,Classical

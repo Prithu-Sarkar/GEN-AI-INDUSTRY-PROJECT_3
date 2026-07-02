@@ -1,0 +1,8 @@
+item,value
+task,"3D+time cell centroid detection, tracking, and division linking"
+image array,"Zarr v3, path 0/, shape (T, Z, Y, X)"
+chunk layout,one timepoint per chunk: 0/c/{t}/0/0/0
+voxel scale,"z=1.625, y=x=0.40625 um/voxel"
+matching radius,7.0 um physical distance
+output schema,"CSV graph rows: node + edge, header id,dataset,row_type,node_id,t,z,y,x,source_id,target_id"
+detectors available,"classical (Otsu/percentile peaks) + DL (3D heatmap-regression CNN, GPU)"

@@ -1,0 +1,8 @@
+priority,enhancement,expected_gain,effort,implementation
+1,Larger DL model (UNet++ or 3D ResUNet),+5-15% recall,medium,Replace TinyUNet3D with 16-channel UNet++; train 15-20 epochs; requires 8GB+ VRAM
+2,Per-sample adaptive threshold calibration,"+3-8% recall, better rho",low,Fit THRESH_REL per zarr based on intensity percentile gap at load time
+3,Motion-model prediction (Kalman / constant-velocity),+2-5% track precision,medium,Add Kalman filter to propagate position prediction between frames; use predicted pos as cost shift in Hungarian
+4,Embryo-aware cross-attention linking,+3-6% edge Jaccard,high,Graph neural network (e.g. PointNet + attention) over per-embryo node sets
+5,Test-time augmentation (TTA) for DL detector,+1-3% recall,low,"Flip XY, average heatmaps before peak extraction; ~2x inference time"
+6,Multi-scale feature fusion in DL detector,+2-5% recall on dense regions,medium,Add ASPP / DeepLab-style multi-scale branch to TinyUNet3D
+7,Active-learning annotation loop,Better calibration on unseen embryos,high,Use uncertainty from MC-Dropout to flag frames for additional annotation

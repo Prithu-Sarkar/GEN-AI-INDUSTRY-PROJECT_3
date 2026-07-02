@@ -1,0 +1,7 @@
+quantity,value
+link gate (um),10.5
+division parent gate (um),9.0
+division sister gate (um),9.0
+division midpoint gate (um),6.0
+tight profile enabled,False
+isolated pruning enabled,False

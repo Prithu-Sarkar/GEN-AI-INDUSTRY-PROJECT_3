@@ -1,0 +1,5 @@
+name,embryo,shape_T,shape_Z,shape_Y,shape_X,dtype,chunk_shape,has_geff,estimated_number_of_nodes
+44b6_0113de3b,44b6,100,64,256,256,uint16,"[1, 64, 256, 256]",False,
+6bba_05b6850b,6bba,100,64,256,256,uint16,"[1, 64, 256, 256]",False,
+44b6_0b24845f,44b6,100,64,256,256,uint16,"[1, 64, 256, 256]",False,
+6bba_05db0fb1,6bba,100,64,256,256,uint16,"[1, 64, 256, 256]",False,

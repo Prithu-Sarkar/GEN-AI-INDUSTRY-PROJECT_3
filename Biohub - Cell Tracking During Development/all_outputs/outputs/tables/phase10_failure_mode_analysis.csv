@@ -1,0 +1,8 @@
+failure_mode,symptom,root_cause,fix
+Under-detection (rho < 0.7),"sparse_recall low, rho much less than 1",THRESH_REL too high or SMOOTH_SIGMA over-smoothing,Reduce THRESH_REL from 0.18 to 0.10; reduce SMOOTH_SIGMA z-component
+Over-detection (rho > 1.5),"rho >> 1, low precision (false positives near border)","THRESH_REL too low, NMS radius too small",Increase THRESH_REL to 0.28; increase NMS_RADIUS_UM; enable USE_BORDER_FILTER
+Missed divisions,n_pred_divisions << n_gt_divisions,DIV_PARENT_DIST_UM or DIV_SISTER_DIST_UM too tight,Increase DIV_PARENT_DIST_UM to 10; increase DIV_SISTER_DIST_UM to 10; set DIV_USE_MIDPOINT=False
+False divisions,n_pred_divisions >> n_gt_divisions,DIV gates too loose; dense regions create spurious matches,Tighten DIV_SISTER_DIST_UM to 6; enable DIV_USE_MIDPOINT with DIV_MIDPOINT_DIST=5
+Link breaks at large displacement,edge_proxy_jaccard low; cells fast-moving,MAX_LINK_DIST_UM too small relative to cell motion,Increase MAX_LINK_DIST_UM to 15 um; consult edge displacement p95 from Phase 3
+DL detector mis-calibrated threshold,DL recall drops vs classical despite lower loss,DL_PEAK_THRESH set too high on heatmap sigmoid output,"Sweep DL_PEAK_THRESH in [0.25, 0.35, 0.45, 0.55]; pick via recall on val frames"
+Embryo-specific detection failure,Wide rho variance across samples from same embryo,Fluorescence intensity varies across embryos/FOVs,Enable per-sample adaptive threshold (set THRESH_REL per-sample based on p99-p50 gap)

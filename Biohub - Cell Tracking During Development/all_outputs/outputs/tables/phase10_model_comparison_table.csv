@@ -1,0 +1,2 @@
+model,sparse_recall_mean,rho_mean,edge_jaccard_mean,division_recall,notes
+Classical (CFG defaults),,,,,run with real data to populate
